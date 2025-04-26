@@ -1,0 +1,5 @@
+Este proyecto consiste en la creación de un clasificador de artículos periodísticos utilizando el algoritmo de Naive Bayes, implementado completamente desde cero en Python. El modelo es capaz de asignar automáticamente una categoría temática (como política, deportes o tecnología) a un texto dado. Para facilitar su uso, se desarrolló una aplicación web con Django que permite a los usuarios ingresar un artículo y obtener su clasificación en tiempo real. El sistema fue entrenado con el dataset BBC News Summary y alcanza una alta precisión, demostrando la efectividad del enfoque elegido.
+Para instalarlo simplementa basta con clonar el repositorio y modificar una parte del codigo que a continuacion se mostrara:
+![image](https://github.com/user-attachments/assets/d27604bf-66b7-4969-9706-d87efd4e3ea2)
+En el archivo naive_bayes.py modificaremos en el metodo load_classifier() la linea del dataset_path por el path al que tenemos nuestro dataset que realmente esta dentro del proyecto entonces simplemente es de cambiar la direccion donde clonamos el proyecto.
+Listo, unicamente eso seria para modificar para que todo el proyecto corra correctamente.
